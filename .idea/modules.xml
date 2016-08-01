@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BadgeView/BadgeView.iml" filepath="$PROJECT_DIR$/BadgeView/BadgeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WX_demo/WX_demo.iml" filepath="$PROJECT_DIR$/WX_demo/WX_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baisi/baisi.iml" filepath="$PROJECT_DIR$/baisi/baisi.iml" />
+    </modules>
+  </component>
+</project>

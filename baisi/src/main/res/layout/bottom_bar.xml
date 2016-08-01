@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:gravity="center"
+    android:background="#cccccc"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_tab01"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:paddingTop="2dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab01"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="1dp"
+            android:layout_gravity="center|bottom"
+            android:src="@mipmap/jinghua_press" />
+        <TextView
+            android:id="@+id/tv_tab01"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:gravity="top|center"
+            android:textSize="10sp"
+            android:text="精华"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tab02"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:paddingTop="2dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab02"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="1dp"
+            android:src="@mipmap/xintie_presss" />
+
+        <TextView
+            android:id="@+id/tv_tab02"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:gravity="top|center"
+            android:textSize="10sp"
+            android:text="新帖"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tab03"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab03"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@mipmap/add" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tab04"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab04"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="1dp"
+            android:src="@mipmap/guanzhu_press" />
+
+        <TextView
+            android:id="@+id/tv_tab04"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:gravity="top|center"
+            android:textSize="10sp"
+            android:text="关注"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tab05"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab05"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="1dp"
+            android:src="@mipmap/my_press" />
+
+        <TextView
+            android:id="@+id/tv_tab05"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:gravity="top|center"
+            android:textSize="10sp"
+            android:text="我的"
+            />
+    </LinearLayout>
+</LinearLayout>
